@@ -1,0 +1,30 @@
+/* p {
+    color: coral;
+    font-size: 20px;
+    background-color: aqua;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: lowercase;
+} */
+
+/* .paraghraph-red {
+    color: red;
+}
+
+#paraghraph-blue {
+    color: blue;
+} */
+
+p{
+    color: yellow;
+}
+
+.paragraph-orange {
+    color: purple;
+}
+
+/* #paragraph-green{
+    color: rgb(86, 199, 184);
+} */
