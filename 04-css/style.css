@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: salmon;
+    flex: 1 0 100%;
+    /* flex-grow, flex-shrink and flex-basis */
+    /* default is 0 1 auto */
+    height: 10%;
+}
+
+.asid-sections {
+    display: flex;
+    flex: 1 0 100%;
+    height: 80%;
+}
+
+aside {
+    flex: 1 0 10%;
+    background-color: wheat;
+}
+
+.sections {
+    flex: 1 0 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sections section {
+    flex: 1 0 33%;
+    border: 1px solid darkslategray;
+    background-color: darkgray;
+}
+
+footer {
+    background-color: darkcyan;
+    flex: 1 0 100%;
+    height: 10%;
+    /* flex-grow, flex-shrink and flex-basis */
+    /* default is 0 1 auto */
+}
+
