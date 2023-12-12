@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is a p element.</p>
+    <p>This is also a p element.</p>
+    <p>Click the button to add a background color to the first p element (index 0) in the document.</p>
+
+    <button onclick="changeBackground()">Change Color</button>
+    <button onclick="reset()">Reset Color</button>
+
+    <script>
+        function changeBackground() {
+            let allPs= document.querySelectorAll('p');
+            console.log(allPs);
+            allPs[0].style.backgroundColor='coral';
+            allPs[1].style.backgroundColor='blue';
+            allPs[2].style.backgroundColor='yellow';
+        }
+        function reset() {
+            let allPs= document.querySelectorAll('p');
+            console.log(allPs);
+            allPs[0].style.backgroundColor='white';
+            allPs[1].style.backgroundColor='white';
+            allPs[2].style.backgroundColor='white';
+        }
+    </script>
+
+</body>
+</html>
