@@ -12,6 +12,7 @@
     // get items from database and store it in courses array
     $courses = array('programming', 'advanced programming', 'data structures');
     echo '<h2>HTU Courses List</h2>';
+   
     echo "<ul>";
     for ($i = 0; $i < count($courses); $i++) {
         echo "<li> $courses[$i] </li>";
